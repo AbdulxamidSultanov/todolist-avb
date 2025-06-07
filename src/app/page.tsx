@@ -1,9 +1,13 @@
-import React from 'react'
+"use client";
+
+import TodoBoard from "@/widgets/TodoBoard";
 
 const page = () => {
   return (
-    <div>page</div>
-  )
-}
+    <>
+      <TodoBoard />
+    </>
+  );
+};
 
-export default page
+export default page;
