@@ -1,4 +1,3 @@
-import Button from "@/shared/ui/Button";
 import { useOnDelete, useOnToggle } from "../model/hooks";
 
 const TodoItem = ({
@@ -25,7 +24,9 @@ const TodoItem = ({
       <button
         className={`px-4 py-2 bg-red-500 hover:bg-red-400 text-white rounded-md`}
         onClick={() => onDelete(id)}
-      >Delete</button>
+      >
+        Delete
+      </button>
     </div>
   );
 };
